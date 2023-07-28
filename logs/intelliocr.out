@@ -1,0 +1,180 @@
+2023-07-11 01:01:27,161 [ERROR] [app.py:1745]: Exception on /Hologram [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/arpan/Desktop/pythonFiles/Hologram/hologram3.py", line 37, in imageRead
+    image = cv2.imread(image)
+UnboundLocalError: local variable 'image' referenced before assignment
+2023-07-11 01:02:18,216 [ERROR] [app.py:1745]: Exception on /Hologram [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/arpan/Desktop/pythonFiles/Hologram/hologram3.py", line 37, in imageRead
+    image = cv2.imread(os.path.join(uploaded_folder, filename_faceid_img))
+UnboundLocalError: local variable 'image' referenced before assignment
+2023-07-11 01:02:19,464 [ERROR] [app.py:1745]: Exception on /Hologram [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/arpan/Desktop/pythonFiles/Hologram/hologram3.py", line 37, in imageRead
+    image = cv2.imread(os.path.join(uploaded_folder, filename_faceid_img))
+UnboundLocalError: local variable 'image' referenced before assignment
+2023-07-11 01:02:27,111 [ERROR] [app.py:1745]: Exception on /Hologram [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/arpan/Desktop/pythonFiles/Hologram/hologram3.py", line 37, in imageRead
+    image = cv2.imread(os.path.join(uploaded_folder, filename_faceid_img))
+UnboundLocalError: local variable 'image' referenced before assignment
+2023-07-17 09:23:14,971 [INFO] [_internal.py:224]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-07-17 09:23:14,971 [INFO] [_internal.py:224]: [33mPress CTRL+C to quit[0m
+2023-07-17 09:23:28,818 [INFO] [_internal.py:224]: 127.0.0.1 - - [17/Jul/2023 09:23:28] "GET / HTTP/1.1" 200 -
+2023-07-17 09:23:28,845 [INFO] [_internal.py:224]: 127.0.0.1 - - [17/Jul/2023 09:23:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-07-17 09:26:30,707 [INFO] [_internal.py:224]: 127.0.0.1 - - [17/Jul/2023 09:26:30] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 09:56:52,817 [INFO] [_internal.py:224]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-07-18 09:56:52,817 [INFO] [_internal.py:224]: [33mPress CTRL+C to quit[0m
+2023-07-18 09:57:21,651 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 09:57:21] "GET / HTTP/1.1" 200 -
+2023-07-18 09:57:22,040 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 09:57:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-07-18 09:57:49,541 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 09:57:49] "[31m[1mPOST /Hologram HTTP/1.1[0m" 400 -
+2023-07-18 09:58:32,155 [ERROR] [app.py:1745]: Exception on /Hologram [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/arpan/Desktop/pythonFiles/Hologram/MainHologram.py", line 68, in imageRead
+    outputDict["hologram image"]=base64_image
+UnboundLocalError: local variable 'outputDict' referenced before assignment
+2023-07-18 09:58:32,156 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 09:58:32] "[35m[1mPOST /Hologram HTTP/1.1[0m" 500 -
+2023-07-18 09:58:33,461 [ERROR] [app.py:1745]: Exception on /Hologram [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/arpan/Desktop/pythonFiles/Hologram/MainHologram.py", line 68, in imageRead
+    outputDict["hologram image"]=base64_image
+UnboundLocalError: local variable 'outputDict' referenced before assignment
+2023-07-18 09:58:33,462 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 09:58:33] "[35m[1mPOST /Hologram HTTP/1.1[0m" 500 -
+2023-07-18 09:59:13,158 [INFO] [_internal.py:224]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-07-18 09:59:13,158 [INFO] [_internal.py:224]: [33mPress CTRL+C to quit[0m
+2023-07-18 09:59:19,870 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 09:59:19] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 10:03:41,425 [INFO] [_internal.py:224]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-07-18 10:03:41,425 [INFO] [_internal.py:224]: [33mPress CTRL+C to quit[0m
+2023-07-18 10:03:46,067 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 10:03:46] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 10:03:46,957 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 10:03:46] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:19:04,895 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:19:04] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:20:18,459 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:20:18] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:21:47,566 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:21:47] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:22:52,708 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:22:52] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:24:46,375 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:24:46] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:26:14,514 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:26:14] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:27:18,852 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:27:18] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:28:31,626 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:28:31] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:29:42,508 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:29:42] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:30:46,282 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:30:46] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:31:49,441 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:31:49] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:33:53,287 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:33:53] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:36:38,680 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:36:38] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:39:36,710 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:39:36] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:44:45,975 [INFO] [_internal.py:224]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-07-18 16:44:45,975 [INFO] [_internal.py:224]: [33mPress CTRL+C to quit[0m
+2023-07-18 16:44:52,064 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:44:52] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:46:21,694 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:46:21] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:47:53,580 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:47:53] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:50:36,504 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:50:36] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:51:54,411 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:51:54] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:53:01,301 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:53:01] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:54:35,427 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:54:35] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:56:08,181 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:56:08] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:56:42,924 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:56:42] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 16:59:22,066 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 16:59:22] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 17:00:31,565 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 17:00:31] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 17:02:03,375 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 17:02:03] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 17:03:03,070 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 17:03:03] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 17:03:44,098 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 17:03:44] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 17:06:56,515 [INFO] [_internal.py:224]: 127.0.0.1 - - [18/Jul/2023 17:06:56] "POST /Hologram HTTP/1.1" 200 -
+2023-07-18 17:17:27,732 [INFO] [_internal.py:224]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-07-18 17:17:27,732 [INFO] [_internal.py:224]: [33mPress CTRL+C to quit[0m
+2023-07-19 11:26:05,078 [INFO] [_internal.py:224]: 127.0.0.1 - - [19/Jul/2023 11:26:05] "POST /Hologram HTTP/1.1" 200 -
+2023-07-19 11:28:07,853 [INFO] [_internal.py:224]: 127.0.0.1 - - [19/Jul/2023 11:28:07] "POST /Hologram HTTP/1.1" 200 -
+2023-07-19 16:58:39,269 [INFO] [_internal.py:224]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-07-19 16:58:39,269 [INFO] [_internal.py:224]: [33mPress CTRL+C to quit[0m
+2023-07-19 16:59:42,720 [INFO] [_internal.py:224]: 127.0.0.1 - - [19/Jul/2023 16:59:42] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 09:52:41,451 [INFO] [_internal.py:224]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-07-21 09:52:41,451 [INFO] [_internal.py:224]: [33mPress CTRL+C to quit[0m
+2023-07-21 09:53:27,189 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 09:53:27] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:03:22,863 [INFO] [_internal.py:224]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7000
+2023-07-21 10:03:22,864 [INFO] [_internal.py:224]: [33mPress CTRL+C to quit[0m
+2023-07-21 10:03:34,891 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:03:34] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:03:36,785 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:03:36] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:41:52,723 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:41:52] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:41:55,701 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:41:55] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:42:51,378 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:42:51] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:43:57,293 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:43:57] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:46:12,247 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:46:12] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:47:37,153 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:47:37] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:48:58,532 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:48:58] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:51:02,997 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:51:02] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:55:26,938 [INFO] [_internal.py:224]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7000
+2023-07-21 10:55:26,938 [INFO] [_internal.py:224]: [33mPress CTRL+C to quit[0m
+2023-07-21 10:55:31,176 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:55:31] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:56:35,237 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:56:35] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:58:19,135 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:58:19] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 10:58:20,206 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 10:58:20] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 11:00:09,070 [INFO] [_internal.py:224]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7000
+2023-07-21 11:00:09,070 [INFO] [_internal.py:224]: [33mPress CTRL+C to quit[0m
+2023-07-21 11:00:13,903 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 11:00:13] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 11:00:55,701 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 11:00:55] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 12:03:55,661 [INFO] [_internal.py:224]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7000
+2023-07-21 12:03:55,661 [INFO] [_internal.py:224]: [33mPress CTRL+C to quit[0m
+2023-07-21 12:03:59,745 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 12:03:59] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 12:04:14,949 [INFO] [_internal.py:224]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7000
+2023-07-21 12:04:14,949 [INFO] [_internal.py:224]: [33mPress CTRL+C to quit[0m
+2023-07-21 12:04:18,704 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 12:04:18] "POST /Hologram HTTP/1.1" 200 -
+2023-07-21 12:07:04,517 [INFO] [_internal.py:224]: 127.0.0.1 - - [21/Jul/2023 12:07:04] "POST /Hologram HTTP/1.1" 200 -

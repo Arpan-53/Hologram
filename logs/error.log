@@ -1,0 +1,126 @@
+[2023-07-11 00:53:18 +0530] [7743] [INFO] Starting gunicorn 20.1.0
+[2023-07-11 00:53:18 +0530] [7743] [INFO] Listening at: http://0.0.0.0:5000 (7743)
+[2023-07-11 00:53:18 +0530] [7743] [INFO] Using worker: sync
+[2023-07-11 00:53:18 +0530] [7747] [INFO] Booting worker with pid: 7747
+[2023-07-11 00:53:18 +0530] [7755] [INFO] Booting worker with pid: 7755
+[2023-07-11 00:53:18 +0530] [7756] [INFO] Booting worker with pid: 7756
+[2023-07-11 00:53:57 +0530] [7743] [CRITICAL] WORKER TIMEOUT (pid:7747)
+[2023-07-11 00:53:57 +0530] [7747] [INFO] Worker exiting (pid: 7747)
+[2023-07-11 00:53:57 +0530] [7884] [INFO] Booting worker with pid: 7884
+[2023-07-11 01:01:14 +0530] [7756] [INFO] Parent changed, shutting down: <Worker 7756>
+[2023-07-11 01:01:14 +0530] [7756] [INFO] Worker exiting (pid: 7756)
+[2023-07-11 01:01:14 +0530] [7884] [INFO] Parent changed, shutting down: <Worker 7884>
+[2023-07-11 01:01:14 +0530] [7884] [INFO] Worker exiting (pid: 7884)
+[2023-07-11 01:01:14 +0530] [7755] [INFO] Parent changed, shutting down: <Worker 7755>
+[2023-07-11 01:01:14 +0530] [7755] [INFO] Worker exiting (pid: 7755)
+[2023-07-11 01:01:23 +0530] [8421] [INFO] Starting gunicorn 20.1.0
+[2023-07-11 01:01:23 +0530] [8421] [INFO] Listening at: http://0.0.0.0:5000 (8421)
+[2023-07-11 01:01:23 +0530] [8421] [INFO] Using worker: sync
+[2023-07-11 01:01:23 +0530] [8425] [INFO] Booting worker with pid: 8425
+[2023-07-11 01:01:23 +0530] [8426] [INFO] Booting worker with pid: 8426
+[2023-07-11 01:01:23 +0530] [8441] [INFO] Booting worker with pid: 8441
+[2023-07-11 01:02:27 +0530] [8426] [INFO] Parent changed, shutting down: <Worker 8426>
+[2023-07-11 01:02:27 +0530] [8425] [INFO] Parent changed, shutting down: <Worker 8425>
+[2023-07-11 01:02:27 +0530] [8426] [INFO] Worker exiting (pid: 8426)
+[2023-07-11 01:02:27 +0530] [8425] [INFO] Worker exiting (pid: 8425)
+[2023-07-11 01:02:27 +0530] [8441] [INFO] Parent changed, shutting down: <Worker 8441>
+[2023-07-11 01:02:27 +0530] [8441] [INFO] Worker exiting (pid: 8441)
+[2023-07-11 01:02:33 +0530] [8574] [INFO] Starting gunicorn 20.1.0
+[2023-07-11 01:02:33 +0530] [8574] [INFO] Listening at: http://0.0.0.0:5000 (8574)
+[2023-07-11 01:02:33 +0530] [8574] [INFO] Using worker: sync
+[2023-07-11 01:02:33 +0530] [8578] [INFO] Booting worker with pid: 8578
+[2023-07-11 01:02:33 +0530] [8586] [INFO] Booting worker with pid: 8586
+[2023-07-11 01:02:33 +0530] [8587] [INFO] Booting worker with pid: 8587
+[2023-07-11 09:58:19 +0530] [8574] [CRITICAL] WORKER TIMEOUT (pid:8578)
+[2023-07-11 09:58:19 +0530] [8574] [CRITICAL] WORKER TIMEOUT (pid:8586)
+[2023-07-11 09:58:19 +0530] [8574] [CRITICAL] WORKER TIMEOUT (pid:8587)
+[2023-07-11 09:58:19 +0530] [8578] [INFO] Worker exiting (pid: 8578)
+[2023-07-11 09:58:19 +0530] [8586] [INFO] Worker exiting (pid: 8586)
+[2023-07-11 09:58:19 +0530] [8587] [INFO] Worker exiting (pid: 8587)
+[2023-07-11 09:58:19 +0530] [13740] [INFO] Booting worker with pid: 13740
+[2023-07-11 09:58:19 +0530] [8574] [WARNING] Worker with pid 8578 was terminated due to signal 9
+[2023-07-11 09:58:19 +0530] [8574] [WARNING] Worker with pid 8586 was terminated due to signal 9
+[2023-07-11 09:58:19 +0530] [13748] [INFO] Booting worker with pid: 13748
+[2023-07-11 09:58:19 +0530] [13772] [INFO] Booting worker with pid: 13772
+[2023-07-11 11:05:25 +0530] [18897] [INFO] Starting gunicorn 20.1.0
+[2023-07-11 11:18:16 +0530] [19624] [INFO] Starting gunicorn 20.1.0
+[2023-07-11 11:18:16 +0530] [19624] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-07-11 11:18:16 +0530] [19624] [ERROR] Retrying in 1 second.
+[2023-07-11 11:18:17 +0530] [19624] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-07-11 11:18:17 +0530] [19624] [ERROR] Retrying in 1 second.
+[2023-07-11 11:18:18 +0530] [19624] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-07-11 11:18:18 +0530] [19624] [ERROR] Retrying in 1 second.
+[2023-07-11 11:18:19 +0530] [19624] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-07-11 11:18:19 +0530] [19624] [ERROR] Retrying in 1 second.
+[2023-07-11 11:18:20 +0530] [13772] [INFO] Parent changed, shutting down: <Worker 13772>
+[2023-07-11 11:18:20 +0530] [13748] [INFO] Parent changed, shutting down: <Worker 13748>
+[2023-07-11 11:18:20 +0530] [13772] [INFO] Worker exiting (pid: 13772)
+[2023-07-11 11:18:20 +0530] [13748] [INFO] Worker exiting (pid: 13748)
+[2023-07-11 11:18:20 +0530] [13740] [INFO] Parent changed, shutting down: <Worker 13740>
+[2023-07-11 11:18:20 +0530] [13740] [INFO] Worker exiting (pid: 13740)
+[2023-07-11 11:18:20 +0530] [19624] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-07-11 11:18:20 +0530] [19624] [ERROR] Retrying in 1 second.
+[2023-07-11 11:18:21 +0530] [19624] [ERROR] Can't connect to ('0.0.0.0', 5000)
+[2023-07-11 11:18:31 +0530] [19682] [INFO] Starting gunicorn 20.1.0
+[2023-07-11 11:18:31 +0530] [19682] [INFO] Listening at: http://0.0.0.0:5000 (19682)
+[2023-07-11 11:18:31 +0530] [19682] [INFO] Using worker: sync
+[2023-07-11 11:18:31 +0530] [19686] [INFO] Booting worker with pid: 19686
+[2023-07-11 11:18:31 +0530] [19694] [INFO] Booting worker with pid: 19694
+[2023-07-11 11:18:31 +0530] [19695] [INFO] Booting worker with pid: 19695
+[2023-07-11 11:27:34 +0530] [19686] [INFO] Parent changed, shutting down: <Worker 19686>
+[2023-07-11 11:27:34 +0530] [19686] [INFO] Worker exiting (pid: 19686)
+[2023-07-11 11:27:39 +0530] [19694] [INFO] Parent changed, shutting down: <Worker 19694>
+[2023-07-11 11:27:39 +0530] [19694] [INFO] Worker exiting (pid: 19694)
+[2023-07-11 11:27:39 +0530] [19695] [INFO] Parent changed, shutting down: <Worker 19695>
+[2023-07-11 11:27:39 +0530] [19695] [INFO] Worker exiting (pid: 19695)
+[2023-07-11 11:27:57 +0530] [20581] [INFO] Starting gunicorn 20.1.0
+[2023-07-11 11:27:57 +0530] [20581] [INFO] Listening at: http://0.0.0.0:5000 (20581)
+[2023-07-11 11:27:57 +0530] [20581] [INFO] Using worker: sync
+[2023-07-11 11:27:57 +0530] [20585] [INFO] Booting worker with pid: 20585
+[2023-07-11 11:27:57 +0530] [20593] [INFO] Booting worker with pid: 20593
+[2023-07-11 11:27:57 +0530] [20601] [INFO] Booting worker with pid: 20601
+[2023-07-11 11:30:55 +0530] [20926] [INFO] Starting gunicorn 20.1.0
+[2023-07-11 11:30:55 +0530] [20926] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-07-11 11:30:55 +0530] [20926] [ERROR] Retrying in 1 second.
+[2023-07-11 11:30:56 +0530] [20926] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-07-11 11:30:56 +0530] [20926] [ERROR] Retrying in 1 second.
+[2023-07-11 11:30:57 +0530] [20926] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-07-11 11:30:57 +0530] [20926] [ERROR] Retrying in 1 second.
+[2023-07-11 11:30:58 +0530] [20926] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-07-11 11:30:58 +0530] [20926] [ERROR] Retrying in 1 second.
+[2023-07-11 11:30:59 +0530] [20926] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-07-11 11:30:59 +0530] [20926] [ERROR] Retrying in 1 second.
+[2023-07-11 11:31:00 +0530] [20926] [ERROR] Can't connect to ('0.0.0.0', 5000)
+[2023-07-11 11:31:07 +0530] [20593] [INFO] Parent changed, shutting down: <Worker 20593>
+[2023-07-11 11:31:07 +0530] [20585] [INFO] Parent changed, shutting down: <Worker 20585>
+[2023-07-11 11:31:07 +0530] [20593] [INFO] Worker exiting (pid: 20593)
+[2023-07-11 11:31:07 +0530] [20585] [INFO] Worker exiting (pid: 20585)
+[2023-07-11 11:31:07 +0530] [20601] [INFO] Parent changed, shutting down: <Worker 20601>
+[2023-07-11 11:31:07 +0530] [20601] [INFO] Worker exiting (pid: 20601)
+[2023-07-11 11:33:15 +0530] [21145] [INFO] Starting gunicorn 20.1.0
+[2023-07-11 11:33:15 +0530] [21145] [INFO] Listening at: http://0.0.0.0:5000 (21145)
+[2023-07-11 11:33:15 +0530] [21145] [INFO] Using worker: sync
+[2023-07-11 11:33:15 +0530] [21149] [INFO] Booting worker with pid: 21149
+[2023-07-11 11:33:15 +0530] [21157] [INFO] Booting worker with pid: 21157
+[2023-07-11 11:33:15 +0530] [21167] [INFO] Booting worker with pid: 21167
+[2023-07-11 16:52:48 +0530] [21145] [CRITICAL] WORKER TIMEOUT (pid:21149)
+[2023-07-11 16:52:48 +0530] [21145] [CRITICAL] WORKER TIMEOUT (pid:21157)
+[2023-07-11 16:52:48 +0530] [21145] [CRITICAL] WORKER TIMEOUT (pid:21167)
+[2023-07-11 16:52:48 +0530] [21157] [INFO] Worker exiting (pid: 21157)
+[2023-07-11 16:52:48 +0530] [21167] [INFO] Worker exiting (pid: 21167)
+[2023-07-11 16:52:48 +0530] [21149] [INFO] Worker exiting (pid: 21149)
+[2023-07-11 16:52:49 +0530] [21145] [WARNING] Worker with pid 21149 was terminated due to signal 9
+[2023-07-11 16:52:49 +0530] [37408] [INFO] Booting worker with pid: 37408
+[2023-07-11 16:52:49 +0530] [37416] [INFO] Booting worker with pid: 37416
+[2023-07-11 16:52:49 +0530] [37424] [INFO] Booting worker with pid: 37424
+[2023-07-12 10:23:22 +0530] [21145] [CRITICAL] WORKER TIMEOUT (pid:37408)
+[2023-07-12 10:23:22 +0530] [21145] [CRITICAL] WORKER TIMEOUT (pid:37416)
+[2023-07-12 10:23:22 +0530] [21145] [CRITICAL] WORKER TIMEOUT (pid:37424)
+[2023-07-12 10:23:22 +0530] [37408] [INFO] Worker exiting (pid: 37408)
+[2023-07-12 10:23:22 +0530] [37416] [INFO] Worker exiting (pid: 37416)
+[2023-07-12 10:23:22 +0530] [37424] [INFO] Worker exiting (pid: 37424)
+[2023-07-12 10:23:22 +0530] [42936] [INFO] Booting worker with pid: 42936
+[2023-07-12 10:23:22 +0530] [21145] [WARNING] Worker with pid 37416 was terminated due to signal 9
+[2023-07-12 10:23:22 +0530] [21145] [WARNING] Worker with pid 37408 was terminated due to signal 9
+[2023-07-12 10:23:22 +0530] [42937] [INFO] Booting worker with pid: 42937
+[2023-07-12 10:23:22 +0530] [42938] [INFO] Booting worker with pid: 42938
